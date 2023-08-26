@@ -1,9 +1,9 @@
 .background {
-  /* background-color: black; */
-  position: fixed;
+  background-color: black;
+  /* position: fixed; */
   height: 100%;
   width: 100%;
-  display: flex;
+  display: flex; 
 }
 .vector {
   width: 64px;
@@ -13,11 +13,9 @@
   margin-left: 136px;
 }
 .div2 {
-  /* background: url(main-logo.png), lightgray 50% / cover no-repeat; */
   width: 70%;
   height: 100vh;
   flex-shrink: 0;
-  /* margin-left: 250px; */
 }
 .div1 {
   background-color:black;
@@ -67,7 +65,7 @@
   justify-content: center;
 }
 .last-div{
-    margin-top:60px; 
+    margin-top:40px; 
     margin-left: 30%;
     color:#27282E;
     font:syne;
