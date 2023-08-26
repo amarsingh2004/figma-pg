@@ -1,0 +1,56 @@
+ @media (max-width:768px) and (min-width : 426px){
+    .background{
+        display: flex;
+        flex-direction: row;
+    .div1{
+        width: 45%;
+        height: auto;
+        .last-div{
+            margin-top: 10%;
+            margin-left: 25%;
+        }
+        .button3{
+            font-size: 0.7rem;
+        }
+    .div2{
+        width: 45%
+    }
+    .button {
+        width: 90%;
+        font-size: 1.1rem;
+    }
+    .line-div {
+        height: 10px;
+        margin-left: 30px;
+       }
+       .logo-div{
+        margin-left: 25px;
+       }
+        
+    }
+     }
+}  
+@media  (max-width: 425px){
+    .background{
+        display: flex;
+        flex-direction: row;
+    }
+    .div1{
+        width:100%;
+    }
+    .div2{
+        width: 0%;
+    }
+   .logo-div{
+    margin-top: 30px;
+   }
+   .last-div{
+    margin-top: 10px;
+   }
+   .button3{
+   margin: 10px;
+   margin-left: -5px;
+   height: 50%;
+   }
+    }
+     
