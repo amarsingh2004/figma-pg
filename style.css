@@ -1,6 +1,8 @@
+.body{
+  background-color: black;
+}
 .background {
   background-color: black;
-  /* position: fixed; */
   height: 100%;
   width: 100%;
   display: flex; 
@@ -85,9 +87,7 @@
     background-color:#27282E;
     height: 60%;
     width: 45%;
-    border-radius:16px ;
-    /* border: none;
-    outline: none; */
+    border-radius:16px;
     font-size: 0.7rem;
     padding: 2%;
     margin:3px
